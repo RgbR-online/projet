@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-void main(){
-    char nomDUtilisateur[20];
-    printf("Quel est ton nom ? ");
-    scanf("%s", nomDUtilisateur);
-    printf("Bonjour %s\n", nomDUtilisateur);
+int main(int argv, char** argc){
+    printf("Bonjour %s\n", argc[1]);
 }
